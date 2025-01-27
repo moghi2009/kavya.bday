@@ -1,0 +1,60 @@
+#p_name{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 175px;
+}
+
+#p143{
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#q1{
+    font-size: 25px;
+}
+
+#question{
+    text-align: center;
+    margin-top: 100px;
+    width: 450px;
+    height: 100px;
+}
+
+#btn_yes{
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 2px;
+    border-color: darksalmon;
+}
+
+#btn_no{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 2px;
+    border-color: darksalmon;
+}
+
+#name2{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+#wish{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+#para1{
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
