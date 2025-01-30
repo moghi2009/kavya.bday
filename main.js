@@ -41,7 +41,7 @@ noBtn.addEventListener('mouseover', () => {
         question.innerHTML = 'Ms. Kavya Tyagi, Just click on yes or else I will do it for you..😉😏'
     }
     if (mouseoverCount > 25) {
-        question.style.fontSize = '18px'
+        question.style.fontSize = '20px'
         question.innerHTML = "Hahaha... <br>I clicked yes myself(You're already mine)<br> I love you bbg ❤️🎀"
         noBtn.disabled = true;
         setTimeout(() => {
