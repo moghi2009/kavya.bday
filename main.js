@@ -5,8 +5,11 @@ const noBtn = document.querySelector('.no-btn');
 
 const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
+const nobutton = document.getElementById('noBtn');
+let mouseoverCount = 0;
+
 yesBtn.addEventListener('click', () => {question.innerHTML = 'I Love You Too';});
-noBtn.addEventListener('mouseover', () => {question.innerHTML = 'I will keep you irritating, better click yes';});
+
 noBtn.addEventListener('click', () => {question.innerHTML = 'I will keep you irritating, better click yes';});
 noBtn.addEventListener('mouseover', () => {
     const i = Math.floor(Math.random() * (wrapperRect.width - noBtnRect.width)) + 1;
@@ -25,3 +28,25 @@ noBtn.addEventListener('onclick', () => {
 function newpage() {
     window.location.href = 'paragraph.html';
 }
+
+noBtn.addEventListener('mouseover', () => {
+    mouseoverCount++;
+    if (mouseoverCount > 5) {
+        question.innerHTML = 'I will keep you irritating, better click yes 🥱😏😉'
+    }
+    if (mouseoverCount > 12) {
+        question.innerHTML = 'Are you testing my patience..?? <br> Just click on yes 😤'
+    }
+    if (mouseoverCount > 20) {
+        question.innerHTML = 'Ms. Kavya Tyagi, Just click on yes or else I will do it for you..😉😏'
+    }
+    if (mouseoverCount > 25) {
+        question.style.fontSize = '18px'
+        question.innerHTML = "Hahaha... <br>I clicked yes myself(You're already mine)<br> I love you bbg ❤️🎀"
+        noBtn.disabled = true;
+        setTimeout(() => {
+            window.location.href = 'paragraph.html';
+        }, 3500);
+        
+    }
+});
