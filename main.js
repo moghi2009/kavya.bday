@@ -42,7 +42,7 @@ noBtn.addEventListener('mouseover', () => {
     }
     if (mouseoverCount > 25) {
         question.style.fontSize = '20px'
-        question.innerHTML = "Hahaha... <br>I clicked yes myself(You're already mine)<br> I love you bbg ❤️🎀"
+        question.innerHTML = "Nevermind done it myself<br>(You're already mine)<br>I love you bbg ❤️🎀"
         noBtn.disabled = true;
         setTimeout(() => {
             window.location.href = 'paragraph.html';
